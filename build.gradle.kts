@@ -9,6 +9,11 @@ plugins {
 group = "org.example"
 version = "0.1.0"
 
+dependencies {
+    implementation("com.google.code.gson:gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
+}
+
 repositories {
     maven("https://maven.aliyun.com/repository/public") // 阿里云国内代理仓库
     mavenCentral()

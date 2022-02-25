@@ -1,4 +1,4 @@
-package org.example.mirai.plugin
+package xyz.hellobaka.steamHeyboxQuery
 
 import net.mamoe.mirai.console.plugin.jvm.JvmPluginDescription
 import net.mamoe.mirai.console.plugin.jvm.KotlinPlugin
@@ -31,15 +31,14 @@ import net.mamoe.mirai.utils.info
 
 object PluginMain : KotlinPlugin(
     JvmPluginDescription(
-        id = "org.example.mirai-example",
-        name = "插件示例",
-        version = "0.1.0"
+        id = "xyz.hellobaka.steamHeyboxQuery",
+        name = "Steam游戏信息查询",
+        version = "1.0.0"
     ) {
-        author("作者名称或联系方式")
+        author("落花茗")
         info(
             """
-            这是一个测试插件, 
-            在这里描述插件的功能和用法等.
+            借用小黑盒接口，查询Steam游戏信息
         """.trimIndent()
         )
         // author 和 info 可以删除.
